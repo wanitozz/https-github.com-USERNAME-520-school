@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>520 School | Future of African Storytelling</title>
+    <meta
+      name="description"
+      content="520 School is a cinematic African media-tech ecosystem for film education, streaming, creator funding, talent discovery, jobs, events, archives, and community-powered storytelling."
+    />
+    <meta name="theme-color" content="#050507" />
+    <meta property="og:title" content="520 School" />
+    <meta property="og:description" content="Enter the future of Kenyan and African storytelling." />
+    <meta property="og:image" content="/images/hero-nairobi-afterlight.jpg" />
+    <link rel="preload" href="/images/hero-nairobi-afterlight.jpg" as="image" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <div class="loader" id="loader" aria-hidden="true">
+      <div class="loader__frame">
+        <span>520</span>
+        <strong>School</strong>
+      </div>
+      <div class="loader__bar"><i></i></div>
+    </div>
+
+    <canvas id="ambientCanvas" class="ambient-canvas" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+    <header class="site-nav" aria-label="Primary navigation">
+      <a class="brand magnetic" href="#home" aria-label="520 School home">
+        <span class="brand__mark">520</span>
+        <span class="brand__text">School</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#academy">Academy</a>
+        <a href="#streaming">Streaming</a>
+        <a href="#membership-funding">Funding</a>
+        <a href="#talent-discovery">Talent</a>
+        <a href="#critics">Critics</a>
+        <a href="#admin">Admin</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-button magnetic" id="soundToggle" type="button" aria-label="Toggle sound">
+          <span class="sound-icon"></span>
+        </button>
+        <a class="nav-cta magnetic" href="#join">Join</a>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="footer">
+      <div>
+        <strong>520 School</strong>
+        <span>Built for Kenyan stories with continental ambition.</span>
+      </div>
+      <div class="footer__links">
+        <a href="#press-media-kit">Press</a>
+        <a href="#investor-relations">Investors</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>
